@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -104,4 +98,3 @@ def update_graph(xaxis_column_name, yaxis_column_name,
 
 if __name__ == '__main__':
     app.run_server()
-
